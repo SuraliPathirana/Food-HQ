@@ -1,0 +1,107 @@
+/* ----------Styles of the 2nd form template------------- */
+.formContainer{
+    padding: 20px 50px 30px;
+
+}
+.form-topic{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.formBtn{
+    padding: 5px 15px;
+}
+
+.form .row {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 100px 300px 300px;
+    gap: 10px 30px;
+    margin-bottom: 20px;
+ }
+
+ .form .row label{
+    margin: auto;
+ }
+ 
+ .form input[type="text"],
+ input[type="number"],
+ input[type="date"],
+ select,
+ textarea {
+    width: 100%;
+    resize: none;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+ }
+ 
+ .form input[type="radio"],
+ input[type="checkbox"] {
+    margin-left: 3px;
+    margin-right: 8px;
+    /* transform: scale(1.5); */
+ }
+ 
+ .form input:focus,
+ .form textarea:focus,
+ select:focus {
+    outline: none;
+    border-color: #6f6df4;
+ }
+ 
+ .form .label {
+    color: #1c093c;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+ }
+ 
+ .form .text-group {
+    width: 100%;
+ }
+ 
+ .form .radio-container {
+    margin-top: 5px;
+ }
+ 
+ .form .radio-group {
+    align-self: center;
+    display: inline;
+    cursor: pointer;
+    margin-right: 15px;
+ }
+ 
+ .form .checkbox-group {
+    margin-top: 5px;
+ }
+ 
+ .form .radio-group span,
+ .form .checkbox-group span {
+    font-size: 13px;
+ }
+ 
+ .form .error {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #DC3545;
+ }
+ 
+ .filter-options input,
+ .filter-options select {
+    /* min-width: 500px; */
+ }
+ 
+ /* @media (max-width: 768px) {
+ 
+    .reg-container,
+    .reset-container {
+       width: 80%;
+    }
+ } */
+ 

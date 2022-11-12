@@ -1,0 +1,39 @@
+
+.col{
+
+    display: flex; /* adding flex */
+    justify-content: space-around; /* Positioning them with spaces */
+    flex-wrap: wrap; /* Wrapping Elements when page is small */
+    height: auto;
+    width: auto;
+    
+}
+
+
+.card {
+
+    
+    width:15rem;
+    height:12rem;
+    border-radius: 5px 5px 5px 5px;
+    /* padding:10px 10px 10px 10px; */
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+a{
+    color: black;
+}
+
+.card.confirm{
+
+    background-color:rgb(239, 239, 125);
+}
+
+.card.placed{
+    background-color: rgb(216, 164, 65);
+}
+
+.card.served{
+    background-color:rgb(79, 234, 79);
+}
